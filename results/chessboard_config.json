@@ -1,0 +1,19 @@
+{
+  "screen_resolution": [
+    2560,
+    1664
+  ],
+  "physical_diagonal_inch": 13.6,
+  "pixel_size_cm": 0.01131,
+  "chessboard_cell_size_cm": 2.38,
+  "chessboard_corners": [
+    11,
+    7
+  ],
+  "chessboard_cells": [
+    12,
+    8
+  ],
+  "chessboard_display_ratio": 0.9,
+  "target_display_index": 0
+}
