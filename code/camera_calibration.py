@@ -8,7 +8,10 @@ import time
 import sys
 
 # === Загрузка параметров шахматной доски ===
-with open("chessboard_config.json", "r") as f:
+base_dir = os.path.abspath(os.path.dirname(__file__))
+config_path = os.path.join(base_dir, "../results/chessboard_config.json")
+
+with open(config_path, "r") as f:
     config = json.load(f)
 
 n_corners_x, n_corners_y = config["chessboard_corners"]
